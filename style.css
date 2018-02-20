@@ -1,0 +1,225 @@
+/* Styling for HTML elements */
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+header {
+  background: #333;
+}
+h1{
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: rgb(65, 168, 168);
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  color: rgb(65, 168, 168);
+  font-weight: bold;
+}
+hr {
+  color: #d3d3d3;
+  width:95%;
+}
+.center{
+    text-align: center;
+}
+a {
+  color: #d21034;
+}
+/* Selecting elements by class */
+.my-container {
+  width: 90%;
+  margin: 0 auto;
+  background: lightgrey;
+  
+}
+/* Selecting elements by ID */
+#main-summary,
+#viz-info,
+#summary-image {
+  float: left;
+}
+#figure {
+  position: relative;
+  padding-left:20px;
+}
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+#main-summary {
+  padding: 20px;
+  width: 65%;
+  margin-right: 20px;
+  background: white;
+}
+#viz-info {
+  width: 30%;
+  background: white;
+}
+#summary-image{
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#main-summary p{
+  padding-left:15px;
+  padding-right:30px;
+}
+
+#box-1 {
+    width: 45%;
+    height:45%;
+    margin: 5px;
+    
+  }
+#box-2 {
+
+    width: 45%;
+    height:45%;
+    margin: 5px;
+  }
+#box-3 {
+    width: 45%;
+    height:45%;
+    margin: 5px;
+  }
+#box-4 {
+    margin: 5px;
+    width: 45%;
+    height:45%;
+  }
+
+.site-name{
+  background: rgb(65, 168, 168);
+  color: white !important;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px !important;
+  padding: 10px;  
+}
+
+.navbar-header  a{
+  text-decoration: none;
+  color: white !important;
+}
+
+.navbar-header  a:hover{
+  text-decoration: none;
+  color: white !important;
+  background: rgb(65, 168, 168) !important;
+}
+
+
+/*
+  tr:nth-child(even){
+    background: #f6f6f6
+  }
+  tr:nth-child(odd){
+    background: #FFF
+  }
+  */
+
+
+.main-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:80%;
+}
+
+
+.navbrand-vijaya:hover{
+  background: rgb(65, 168, 168) !important;
+}
+
+@media(max-width:768px){
+
+  #main-summary {
+    width: 98%;
+  }
+
+  #viz-info {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 98%;
+  }
+
+  #box-1, #box-2, #box-3, #box-4 {
+    width: 22%;
+    height:22%;
+    margin: 5px;
+    padding-bottom: 20px;
+    
+  }
+  
+  /* nav bar */
+  .top-navbar-background {
+    background-color: rgb(65, 168, 168) !important;
+  }
+
+  .sub-navbar-background {
+  background-color: #f8f8f8 !important;
+  }
+
+  
+}
+
+@media(max-width:990px){
+  .image-container{
+    padding-bottom: 50px !important;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+}
+
+
+.main-summary-standalone{
+  background: white !important;
+  padding: 40px !important;
+}
+
+.my-table{
+  font-size: 16px;
+}
+
+.compare-images{
+  width :80%;
+}
+
+.image-container{
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container h3{
+  color: rgb(65, 168, 168);
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.box-border{
+  padding:1px;
+  border: 3px solid rgb(65, 168, 168);
+}
+
+.heading-padding{
+  padding-left: 15px;
+}
+
+.full-width-hr{
+  width:100%;
+}
+
+
+
